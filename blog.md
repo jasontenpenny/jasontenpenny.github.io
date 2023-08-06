@@ -3,8 +3,6 @@ layout: default
 title: Blog
 ---
 
-# Blog
-
 <section class="post-list">
   {% for post in site.posts %}
     <article class="post-entry">
