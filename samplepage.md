@@ -15,5 +15,5 @@ This is a sample to see how this is rendered if I browse to it via GitHub pages.
 
 [Hyperlink](https://jasontenpenny.com)
 
-![image](https://jasontenpenny.com/images/IMG_0918.jpeg)
+![image](/assets/images/IMG_0918.jpeg)
 
