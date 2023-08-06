@@ -5,8 +5,6 @@ tag: example-post
 excerpt_separator: <!--more-->
 ---
 
-# Welcome
-
 **Hello world**, this is my first Jekyll blog post.
 
 <!--more-->
