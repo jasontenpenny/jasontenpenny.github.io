@@ -1,13 +1,13 @@
 ---
 layout: default
-title: Home | Jason Tenpenny
+title: Home
 ---
 
 # Welcome to jasontenpenny.com!
 
 ## About Me
 
-<img class="profile-pic" src="/images/IMG_0918.jpeg" width="300" align="right">
+<img class="profile-pic" src="/assets/images/IMG_0918.jpeg" width="300" align="right">
 
 Hello and thanks for visiting! My name is Jason and I am an IT professional who has been in the industry for over a decade. I have a variety of experience as a helpdesk technician, Microsoft 365 administrator, sysadmin, network engineer, cloud admin, etc.
 
