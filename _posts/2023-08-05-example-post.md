@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: default
 title:  "Example Post"
 tag: example-post
 excerpt_separator: <!--more-->
