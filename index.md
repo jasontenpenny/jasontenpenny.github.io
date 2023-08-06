@@ -1,3 +1,8 @@
+---
+layout: default
+title: Home | Jason Tenpenny
+---
+
 # Welcome to jasontenpenny.com!
 
 ## About Me
