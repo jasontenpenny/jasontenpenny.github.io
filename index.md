@@ -21,14 +21,6 @@ Reach out on social media if you have things you would like me to write/talk abo
 
 <table class="socials">
   <tr>
-    <td>Blog:</td>
-    <td><a href="https://blog.jasontenpenny.com">blog.jasontenpenny.com</a></td>
-  </tr>
-  <tr >
-    <td>GitHub:</td>
-    <td><a href="https://github.com/jasontenpenny">jasontenpenny</a></td>
-  </tr>
-  <tr>
     <td>Bluesky:</td>
     <td><a href="https://bsky.app/profile/jasontenpenny.com">@jasontenpenny.com</a></td>
   </tr>
@@ -43,6 +35,10 @@ Reach out on social media if you have things you would like me to write/talk abo
   <tr>
     <td>Mastodon</td>
     <td><a href="https://noc.social/_tenpenny">@_tenpenny@noc.social</a></td>
+  </tr>
+  <tr >
+    <td>GitHub:</td>
+    <td><a href="https://github.com/jasontenpenny">jasontenpenny</a></td>
   </tr>
 </table>
 
