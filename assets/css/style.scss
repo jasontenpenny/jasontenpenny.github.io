@@ -42,11 +42,12 @@ nav a {
 }
 
 .post-metadata {
-  font-size: 0.5em;
+  font-size: 0.75em;
+  font-weight: 300;
 }
 
 .post-metadata b {
-  font-weight: 300;
+  font-weight: 600;
 }
 
 .post-excerpt {
@@ -54,7 +55,7 @@ nav a {
 
 .post-excerpt>* {
   font-size: inherit;
-  font-weight: inherit;
+  font-weight: normal;
   margin: 0;
   padding: 0;
   color: #373737;
