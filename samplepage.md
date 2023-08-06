@@ -1,4 +1,4 @@
-#Sample Page
+# Sample Page
 
 This is a sample to see how this is rendered if I browse to it via GitHub pages. I'm unsure if this is a good idea.
 
