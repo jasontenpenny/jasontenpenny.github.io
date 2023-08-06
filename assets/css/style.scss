@@ -22,3 +22,15 @@ img {
 .socials tr td {
   border: none;
 }
+
+nav a {
+  padding-right: 10px;
+}
+
+nav a::before {
+  content: " | ";
+}
+
+nav:first-child::before {
+  content: "";
+}
