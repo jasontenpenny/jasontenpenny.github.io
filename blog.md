@@ -8,11 +8,11 @@ title: Blog
 <section class="post-list">
   {% for post in site.posts %}
     <article>
-      <h2><a href="{{ post.url }}">{{ post.title }}</a></h2>
-      <details>
+      <h3><a href="{{ post.url }}">{{ post.title }}</a></h3>
+      <div>
         <b>Posted on:</b> {{ post.date }}
-        <b>Tags: {{ post.tags }}
-      </details>
+        <b>Tags:</b> {{ post.tags }}
+      </div>
       {{ post.excerpt }}
     </article>
   {% endfor %}
