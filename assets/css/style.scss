@@ -27,10 +27,6 @@ nav a {
   padding-right: 10px;
 }
 
-nav a::before {
+nav a:not(:last-of-type)::after {
   content: " | ";
-}
-
-nav:first-child::before {
-  content: "";
 }
