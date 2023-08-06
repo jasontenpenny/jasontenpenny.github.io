@@ -37,3 +37,24 @@ nav a {
   color: #fff;
   text-decoration: none;
 }
+
+.post-title {
+}
+
+.post-metadata {
+  font-size: 0.5em;
+}
+
+.post-metadata b {
+  font-weight: 300;
+
+.post-excerpt {
+}
+
+.post-excerpt>* {
+  font-size: inherit;
+  font-weight: inherit;
+  margin: 0;
+  padding: 0;
+  color: #373737;
+}
