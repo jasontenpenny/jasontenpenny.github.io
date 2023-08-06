@@ -7,13 +7,15 @@ title: Blog
 
 <section class="post-list">
   {% for post in site.posts %}
-    <article>
-      <h3><a href="{{ post.url }}">{{ post.title }}</a></h3>
-      <div>
-        <b>Posted on:</b> {{ post.date }}
+    <article class="post-entry">
+      <h3 class="post-title"><a href="{{ post.url }}">{{ post.title }}</a></h3>
+      <div class="post-metadata">
+        <b>Posted on:</b> {{ post.date }}<br />
         <b>Tags:</b> {{ post.tags }}
       </div>
-      {{ post.excerpt }}
+      <div class="post-excerpt">
+        {{ post.excerpt }}
+      </div>
     </article>
   {% endfor %}
 </section>
