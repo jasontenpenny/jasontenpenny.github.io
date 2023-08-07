@@ -8,7 +8,7 @@ title: Blog
     <article class="post-entry">
       <h3 class="post-title"><a href="{{ post.url }}">{{ post.title }}</a></h3>
       <div class="post-metadata">
-        <b>Posted on:</b> {{ post.date }}<br />
+        <b>Posted on:</b> {{ post.date | date: '%B %d, %Y' }}<br />
         <b>Tags:</b> {{ post.tags }}
       </div>
       <div class="post-excerpt">
