@@ -1,8 +1,7 @@
 ---
 layout: default
 title: Open Any File with Visual Studio Code on Mac
-tag: Mac Tips
-tags: macOS
+tags: Mac-Tips macOS
 excerpt_separator: <!--more-->
 ---
 
