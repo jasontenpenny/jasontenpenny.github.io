@@ -11,7 +11,7 @@ Hello and thank you for visiting jasontenpenny.com!
 
 My name is Jason and I am an IT professional who has been in the industry for over a decade. I have a variety of experience as a helpdesk technician, Microsoft 365 administrator, sysadmin, network engineer, cloud admin, etc.
 
-I am just getting started with my online presence, so there is not much content available yet. My goal is to post things that are useful to people, mostly ips and tricks that can make things easier.
+I am just getting started with my online presence, so there is not much content available yet. My goal is to post things that are useful to people, mostly tips and tricks that can make things easier.
 
 Reach out on social media if you have things you would like me to write/talk about!
 
