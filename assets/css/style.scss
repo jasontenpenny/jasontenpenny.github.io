@@ -50,6 +50,14 @@ nav a {
   font-weight: 300;
 }
 
+.post-metadata a, .post-metadata a:hover, .post-metadata a:active, .post-metadata a:visited {
+  text-decoration: underline;
+}
+
+.post-metadata a:hover, .post-metadata a:active {
+  color: #222222;
+}
+
 .post-metadata b {
   font-weight: 600;
 }
@@ -59,7 +67,7 @@ nav a {
 
 .post-excerpt>* {
   font-size: inherit;
-  font-weight: normal;
+  font-weight: 400;
   margin: 0;
   padding: 0;
   color: #373737;
