@@ -113,7 +113,7 @@ nav a {
 }
 
 .nav-item>.nav-list {
-  display: block;
+  display: none;
   list-style: none;
   position: absolute;
   z-index: 100;
@@ -122,9 +122,12 @@ nav a {
 
 .nav-item>.nav-list>.nav-item {
   display: block;
+}
+
+.nav-item>.nav-list>.nav-item>a {
   font-size: 15px;
 }
 
-.nav-item:hover {
+.nav-item:hover>.nav-list {
   display: block;
 }
