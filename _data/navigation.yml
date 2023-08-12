@@ -2,3 +2,7 @@
   link: /
 - name: Blog
   link: /blog
+  - name: Post Categories
+    link: /blog/categories
+  - name: Post Tags
+    link: /blog/tags
