@@ -104,3 +104,13 @@ nav a {
   margin: 20px auto;
   background-color: #373737;
 }
+
+#nav2 ul {
+  display: inline;
+  list-style: none;
+}
+
+#nav2 li ul {
+  display: none;
+  list-style: none;
+}
