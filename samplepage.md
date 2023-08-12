@@ -3,6 +3,21 @@ layout: default
 title: Sample Page
 ---
 
+<nav id="nav2">
+    <ul>
+    {% for item in site.data.navigation %}
+        <li><a href="{{ item.link }}">{{ item.name }}</a>
+        {% if item.subitems %}
+            <ul>
+                {% for subitem in item.subitems %}
+                <li><a href="{{ subitem.link }}">{{ subitem.name }}</a></li>
+                {% endfor %}
+            </ul>
+        {% endif %}
+        </li>
+    {% endfor %}
+    </ul>
+</nav>
 This is a sample to see how this is rendered if I browse to it via GitHub pages. I'm unsure if this is a good idea.
 
 1. Numbered List
