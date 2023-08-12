@@ -74,9 +74,6 @@ nav a {
   font-weight: 600;
 }
 
-.post-excerpt {
-}
-
 .post-excerpt * {
   font-size: inherit;
   font-weight: 400;
@@ -115,10 +112,10 @@ nav a {
 }
 
 .nav-item ul {
-  display: none;
+  display: inline-block;
   list-style: none;
 }
 
 .nav-item:hover {
-  display: block;
+  display: inline-block;
 }
