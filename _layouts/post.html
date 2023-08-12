@@ -5,13 +5,15 @@ layout: default
 <div class="post-metadata">
     <b>Posted on:</b> {{ page.date | date: '%B %d, %Y' }}<br />
     <b>Category:</b> {{ page.category }}<br />
-    <b>Tags:</b> {% for tag in post.tags -%}
+    <b>Tags:</b> {% for tag in page.tags -%}
         {%- if forloop.length > 0 -%}
             {{ tag | replace: "+", " " }}{% unless forloop.last %}, {% endunless -%}
         {%- endif -%}
     {% endfor %}
 </div>
 {{ content }}
+
+<hr>
 
 <div class="post-pagination">
     {% if page.previous %}
