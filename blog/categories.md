@@ -15,7 +15,7 @@ title: "Post Categories"
                 <b>Posted on:</b> {{ post.date | date: '%B %d, %Y' }}<br />
                 <b>Tags:</b> {% for tag in post.tags -%}
                     {%- if forloop.length > 0 -%}
-                        {{ tag | replace: "+", " " }}{% unless forloop.last %}, {% endunless -%}
+                        <a href="/blog/tags#{{ tag }}">{{ tag | replace: "+", " " }}</a>{% unless forloop.last %}, {% endunless -%}
                     {%- endif -%}
                 {% endfor %}
             </div>

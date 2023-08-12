@@ -4,10 +4,10 @@ layout: default
 
 <div class="post-metadata">
     <b>Posted on:</b> {{ page.date | date: '%B %d, %Y' }}<br />
-    <b>Category:</b> {{ page.category }}<br />
+    <b>Category:</b> <a href="/blog/categories#{{ page.category | url_encode }}">{{ page.category }}</a><br />
     <b>Tags:</b> {% for tag in page.tags -%}
         {%- if forloop.length > 0 -%}
-            {{ tag | replace: "+", " " }}{% unless forloop.last %}, {% endunless -%}
+            <a href="/blog/tags#{{ tag }}">{{ tag | replace: "+", " " }}</a>{% unless forloop.last %}, {% endunless -%}
         {%- endif -%}
     {% endfor %}
 </div>

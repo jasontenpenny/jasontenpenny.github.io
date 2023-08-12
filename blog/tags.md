@@ -12,7 +12,7 @@ title: "Post Tags"
             <h3 class="post-title"><a href="{{ post.url }}">{{ post.title }}</a></h3>
             <div class="post-metadata">
                 <b>Posted on:</b> {{ post.date | date: '%B %d, %Y' }}<br />
-                <b>Category:</b> {{ post.category }}
+                <b>Category:</b> <a href="/blog/categories#{{ post.category | url_encode }}">{{ post.category }}</a>
             </div>
         </article>
         {% endfor %}
