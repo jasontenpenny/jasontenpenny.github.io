@@ -42,6 +42,3 @@ Reach out on social media if you have things you would like me to write/talk abo
   </tr>
 </table>
 
-&nbsp;
-
-[Buy me a beer](https://www.buymeacoffee.com/jasontenpenny) if you feel like it, it would make my day!
