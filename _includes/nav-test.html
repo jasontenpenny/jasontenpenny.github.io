@@ -1,5 +1,5 @@
 <ul class="nav-list">
-{% for item in site.data.navigation %}
+{% for item in include.nav %}
     <li class="nav-item"><a href="{{ item.link }}">{{ item.name }}</a>
     {% if item.subitems %}
         {% include nav-test.html nav=item.subitems %}
