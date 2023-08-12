@@ -102,13 +102,13 @@ nav a {
   background-color: #373737;
 }
 
-#nav2 .nav-list {
+#nav2>.nav-list {
   display: inline;
   list-style: none;
   padding-left: none;
 }
 
-#nav2 .nav-list .nav-item {
+#nav2>.nav-list>.nav-item {
   display: inline-block;
 }
 
