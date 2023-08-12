@@ -102,22 +102,22 @@ nav a {
   background-color: #373737;
 }
 
-#nav2 ul {
+#nav2 .nav-list {
   display: inline;
   list-style: none;
   padding-left: none;
 }
 
-#nav2 ul li {
+#nav2 .nav-list .nav-item {
   display: inline-block;
 }
 
-.nav-item>ul {
+.nav-item>.nav-list {
   display: block;
   list-style: none;
 }
 
-.nav-item>ul li {
+.nav-item>.nav-list>.nav-item {
   display: block;
 }
 
