@@ -4,6 +4,12 @@ title: "Post Tags"
 ---
 
 <section class="tag-list">
+    <ul>
+    {% for tag in site.tags %}
+        <li><a href="#{{ tag[0] }}">{{ tag[0] | replace: "+", " " }}</a></li>
+    {% endfor %}
+    </ul>
+    <div class="spacer">&nbsp;</div>
     {% for tag in site.tags %}
     <section class="tag-entry">
         <h2 class="tag-title" id="{{ tag[0] }}">{{ tag[0] | replace: "+", " " }}</h2>

@@ -4,6 +4,14 @@ title: "Post Categories"
 ---
 
 <section class="category-list">
+    <ul>
+    {% for category in site.categories %}
+    {% unless category[0] == "blob" %}
+        <li><a href="#{{ category[0] | url_encode }}">{{ category[0] }}</a></li>
+    {% endunless %}
+    {% endfor %}
+    </ul>
+    <div class="spacer">&nbsp;</div>
     {% for category in site.categories %}
     {% unless category[0] == "blog" %}
     <section class="category-entry">
