@@ -115,6 +115,8 @@ nav a {
 .nav-item>.nav-list {
   display: block;
   list-style: none;
+  position: relative;
+  z-index: 100;
 }
 
 .nav-item>.nav-list>.nav-item {
