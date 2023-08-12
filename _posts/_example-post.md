@@ -1,11 +1,12 @@
 ---
 layout: default
 title:  "Example Post"
-tag: example-post
+tags: example-post
+categories: General
 excerpt_separator: <!--more-->
 ---
 
-**Hello world**, this is my first Jekyll blog post.
+This is an example blog post.
 
 <!--more-->
 
