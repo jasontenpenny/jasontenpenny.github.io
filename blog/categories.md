@@ -5,7 +5,7 @@ title: "Post Categories"
 
 <section class="category-list">
     {% for category in site.categories %}
-    {% unless category == "blog" %}
+    {% unless category[0] == "blog" %}
     <section class="category-entry">
         <h2 class="category-title" id="{{ category[0] | url_encode}}">{{ category[0] }}</h2>
         {% for post in category[1] %}
