@@ -95,7 +95,9 @@ nav a {
 
 .post-end-separator {
   background: none;
-  border: 1px solid #373737;
+  border: none;
+  height: 2px;
+  color: #373737;
   width: 80%;
   margin: 20px auto;
 }
