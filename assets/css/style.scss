@@ -110,7 +110,15 @@ nav a {
   list-style: none;
 }
 
-#nav2 li ul {
+#nav2 ul li {
+  display: inline;
+}
+
+.nav-item ul {
   display: none;
   list-style: none;
+}
+
+.nav-item:hover {
+  display: block;
 }

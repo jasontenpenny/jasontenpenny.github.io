@@ -4,13 +4,13 @@ title: Sample Page
 ---
 
 <nav id="nav2">
-    <ul>
+    <ul class="nav-list">
     {% for item in site.data.navigation %}
-        <li><a href="{{ item.link }}">{{ item.name }}</a>
+        <li class="nav-item"><a href="{{ item.link }}">{{ item.name }}</a>
         {% if item.subitems %}
-            <ul>
+            <ul class="nav-list">
                 {% for subitem in item.subitems %}
-                <li><a href="{{ subitem.link }}">{{ subitem.name }}</a></li>
+                <li class="nav-item"><a href="{{ subitem.link }}">{{ subitem.name }}</a></li>
                 {% endfor %}
             </ul>
         {% endif %}
