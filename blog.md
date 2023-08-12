@@ -9,6 +9,7 @@ title: Blog
       <h3 class="post-title"><a href="{{ post.url }}">{{ post.title }}</a></h3>
       <div class="post-metadata">
         <b>Posted on:</b> {{ post.date | date: '%B %d, %Y' }}<br />
+        <b>Category:</b> {{ post.categry }}<br />
         <b>Tags:</b> {% for tag in post.tags -%}
           {%- if forloop.length > 0 -%}
             {{ tag | replace: "+", " " }}{% unless forloop.last %}, {% endunless -%}
@@ -17,8 +18,8 @@ title: Blog
       </div>
       <div class="post-excerpt">
         {{ post.excerpt }}
-        <p><a href="{{ post.url }}">Read more ></a></p>
       </div>
+      <p><a href="{{ post.url }}">Read more ></a></p>
     </article>
   {% endfor %}
 </section>
