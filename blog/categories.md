@@ -5,7 +5,7 @@ title: "Post Categories"
 
 <section class="category-list">
     {% for category in site.categories %}
-    {% if category != "blog" %}
+    {% unless category == "blog" %}
     <section class="category-entry">
         <h2 class="category-title" id="{{ category[0] | url_encode}}">{{ category[0] }}</h2>
         {% for post in category[1] %}
@@ -22,6 +22,6 @@ title: "Post Categories"
         </article>
         {% endfor %}
     </section>
-    {% endif %}
+    {% endunless %}
     {% endfor %}
 </section>
