@@ -105,17 +105,18 @@ nav a {
 #nav2>ul {
   display: inline;
   list-style: none;
+  padding-left: none;
 }
 
 #nav2>ul li {
-  display: inline;
+  display: inline-block;
 }
 
 .nav-item ul {
-  display: inline-block;
+  display: block;
   list-style: none;
 }
 
 .nav-item:hover {
-  display: inline-block;
+  display: block;
 }
