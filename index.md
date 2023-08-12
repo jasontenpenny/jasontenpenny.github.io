@@ -25,15 +25,15 @@ Reach out on social media if you have things you would like me to write/talk abo
     <td><a href="https://bsky.app/profile/jasontenpenny.com">@jasontenpenny.com</a></td>
   </tr>
   <tr>
-    <td>Twitter</td>
+    <td>Twitter:</td>
     <td><a href="https://twitter.com/_tenpenny">@_tenpenny</a></td>
   </tr>
   <tr>
-    <td>LinkedIn</td>
+    <td>LinkedIn:</td>
     <td><a href="https://linkedin.com/in/jasontenpenny">in/jasontenpenny</a></td>
   </tr>
   <tr>
-    <td>Mastodon</td>
+    <td>Mastodon:</td>
     <td><a href="https://noc.social/_tenpenny">@_tenpenny@noc.social</a></td>
   </tr>
   <tr >
