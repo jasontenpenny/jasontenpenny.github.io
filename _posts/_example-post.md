@@ -1,8 +1,8 @@
 ---
-layout: default
+layout: post
 title:  "Example Post"
 tags: example-post
-categories: General
+category: General
 excerpt_separator: <!--more-->
 ---
 

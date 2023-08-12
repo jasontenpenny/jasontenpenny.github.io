@@ -76,11 +76,12 @@ nav a {
 .post-excerpt {
 }
 
-.post-excerpt>* {
+.post-excerpt * {
   font-size: inherit;
   font-weight: 400;
   margin: 0;
   padding: 0;
+  border: none;
   color: #373737;
 }
 

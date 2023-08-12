@@ -1,8 +1,8 @@
 ---
-layout: default
+layout: post
 title:  "Mac App Spotlight - Magnet"
 tags: macOS Mac+Apps Magnet Window+management
-categories: App+Spotlight
+category: App Spotlight
 excerpt_separator: <!--more-->
 ---
 
