@@ -94,7 +94,6 @@ p img {
 #site-nav a {
   padding-right: 20px;
   color: #fff;
-  font-size: 20px;
   font-weight: 300;
   background: none;
   text-shadow: #111 0px 0px 10px;
@@ -112,6 +111,10 @@ p img {
   display: inline-block;
 }
 
+#site-nav>.nav-list>.nav-item>a {
+  font-size: 20px;
+}
+
 .nav-item>.nav-list {
   display: none;
   list-style: none;
@@ -122,7 +125,7 @@ p img {
 
 .nav-item>.nav-list>.nav-item {
   display: block;
-  padding: 5px;
+  padding: 8px;
 }
 
 .nav-item>.nav-list>.nav-item>a {
