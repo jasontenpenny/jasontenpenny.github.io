@@ -17,6 +17,7 @@ title: Blog
       </div>
       <div class="post-excerpt">
         {{ post.excerpt }}
+        <p><a href="{{ post.url }}">Read more ></a></p>
       </div>
     </article>
   {% endfor %}
