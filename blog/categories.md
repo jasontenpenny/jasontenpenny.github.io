@@ -6,7 +6,8 @@ title: "Post Categories"
 <section class="category-list">
     {% for category in site.categories %}
     <section class="category-entry">
-        <h2 class="category-title" id="{{ category }}">{{ category }}</h2>
+        <h2 class="category-title" id="{{ category[0] }}">{{ category[0] }}</h2>
+        {% for post in category[1] %}
         <article class="post-entry">
             <h3 class="post-title"><a href="{{ post.url }}">{{ post.title }}</a></h3>
             <div class="post-metadata">
@@ -18,6 +19,7 @@ title: "Post Categories"
                 {% endfor %}
             </div>
         </article>
+        {% endfor %}
     </section>
     {% endfor %}
 </section>
