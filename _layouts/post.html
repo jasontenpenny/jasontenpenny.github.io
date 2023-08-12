@@ -13,21 +13,21 @@ layout: default
 </div>
 {{ content }}
 
-<hr>
+<div class="post-end-spacer">&nbsp;</div>
+
+<hr class="post-end-separator">
 
 <div class="post-pagination">
     {% if page.previous %}
     <div class="post-previous">
         <h3>Previous</h3>
-        <p>{{ page.previous.title }}</p>
-        <p><a  class="btn"  href="{{ site.baseurl }}{{ page.previous.url }}">Read Post</a></p>
+        <p><a href="{{ site.baseurl }}{{ page.previous.url }}">{{ page.previous.title }}</a></p>
     </div>
     {% endif %}
     {% if page.next %}
     <div class="post-next">
         <h3>Up Next</h3>
-        <p>{{ page.next.title }}</p>
-        <p><a  class="btn"  href="{{ site.baseurl }}{{ page.next.url }}">Read Post</a></p>
+        <p><a href="{{ site.baseurl }}{{ page.next.url }}">{{ page.next.title }}</a></p>
     </div>
     {% endif %}
  </div>
