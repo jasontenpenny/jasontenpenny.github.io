@@ -1,5 +1,10 @@
-<nav>
-  {% for item in site.data.navigation %}
-   <a href="{{ item.link }}">{{ item.name }}</a>
+<ul class="nav-list">
+  {% for item in include.nav %}
+      <li class="nav-item"><a href="{{ item.link }}">{{ item.name }}</a>
+      {% if item.subitems %}
+          {% include nav-test.html nav=item.subitems %}
+      {% endif %}
+      </li>
   {% endfor %}
-</nav>
+  </ul>
+  
