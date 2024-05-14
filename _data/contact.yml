@@ -1,7 +1,7 @@
 #  The contact options.
 
 - type: bluesky
-  icon: 'fas fa-hashtag'
+  icon: 'fa-brands fa-bluesky'
   url: 'https://bsky.app/profile/itsjason.net'
 
 - type: twitter
