@@ -26,7 +26,7 @@ This is one of those items that is good practice for anyone who owns a device. I
 
 So if nothing else on this list is done, make sure you have a passcode on the device. And if there's a chance your partner knows your current passcode, change it!
 
-When choosing a password, don't use anything predictable. So no birthdays, no anniversaries, etc. My suggestion would be to make up a word and then use the number that corresponds with each letter, like on a T9 keyboard. For example, you could use the word _hungry_, and that would become 486479.
+When choosing a passcode, don't use anything predictable. So no birthdays, no anniversaries, etc. My suggestion would be to make up a word and then use the number that corresponds with each letter, like on a T9 keyboard. For example, you could use the word _hungry_, and that would become 486479.
 
 **Instructions:**
 
@@ -69,7 +69,13 @@ Steer clear of SMS messaging, as that communication is unencrypted. Furthermore,
 
 iMessage is encrypted, though there are some caveats that I'll touch on in a later section. Other recommended apps are [Signal](https://signal.org) and [WhatsApp](https://www.whatsapp.com). These apps encrypt everything and send it across data signals as opposed to SMS, so it's much more secure and private. Even if your partner is very technically savvy and is doing something like packet inspection on the internet traffic, they wouldn't be able to read messages. They might know that Signal or WhatsApp is in use, but they'll have no idea who the contacts are or what is said.
 
-If you do use iMessage, I would recommend disabling the fallback to SMS. When this option is on (which I believe is the default), the device will send a text over SMS if it can't reach the internet at the time. This setting can be disabled in Settings > Messages > **Send as SMS**.
+If you do use iMessage, I would recommend disabling the fallback to SMS. When this option is on (which I believe is the default), the device will send a text over SMS if it can't reach the internet at the time.
+
+**Instructions to disable SMS Fallback:**
+
+1. Open the **Settings** app
+1. Tap **Messages**
+1. Toggle the **Send as SMS** setting
 
 ## Add biometrics to your messaging apps
 
@@ -147,7 +153,7 @@ There should be a guide that helps you set this up.
 
 ## Check what permissions have been granted
 
-Apple has recently added the ability to perform a review of what permissions you've granted to people, related to your iCloud data. This tool can help you identify who has access to your location data, your activity data, photos, and shared notes. It also gives you an easy way to revoke that access if needed. 
+Apple has recently added the ability to perform a review of what permissions you've granted to people, related to your iCloud data. This tool can help you identify who has access to your location data, your activity data, photos, and shared notes. It also gives you an easy way to revoke that access if needed.
 
 **Instructions:**
 
