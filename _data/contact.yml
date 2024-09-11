@@ -21,6 +21,10 @@
 - type: rss
   icon: 'fas fa-rss'
   noblank: true
+
+- type: mastodon
+  icon: 'fab fa-mastodon'
+  url: 'https://bsky.brid.gy/itsjason.net'
 # Uncomment and complete the url below to enable more contact options
 #
 # - type: linkedin
