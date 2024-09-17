@@ -16,17 +16,17 @@ timezone: America/Chicago
 
 title: It's Jason! # the main title
 
-tagline: My personal blog # it will display as the sub-title
+tagline: Thoughts about technology, and possibly other things on occasion # it will display as the sub-title
 
 description: >- # used by seo meta and the atom feed
   A personal blog used to write about technology and computer tips.
 
 # Fill in the protocol & hostname for your site.
 # e.g. 'https://username.github.io', note that it does not end with a '/'.
-url: "https://itsjason.net"
+url: "https://jasontenpenny.com"
 
 github:
-  username: itsjason-net # change to your github username
+  username: jasontenpenny # change to your github username
 
 twitter:
   username: itsjason_net # change to your twitter username
@@ -34,13 +34,13 @@ twitter:
 social:
   # Change to your full name.
   # It will be displayed as the default author of the posts and the copyright owner in the Footer
-  name: Jason
-  email: hello@itsjason.net # change to your email address
+  name: Jason Tenpenny
+  email: jason@jasontenpenny.com # change to your email address
   links:
     # The first element serves as the copyright owner's link
-    - https://bsky.app/profile/itsjason.net # change to your bluesky homepage
+    - https://bsky.app/profile/jasontenpenny.com # change to your bluesky homepage
     - https://twitter.com/itsjason_net # change to your twitter homepage
-    - https://github.com/itsjason-net # change to your github homepage
+    - https://github.com/jasontenpenny # change to your github homepage
     # Uncomment below to add more social links
     # - https://www.facebook.com/username
     # - https://www.linkedin.com/in/username
@@ -118,7 +118,7 @@ comments:
     issue_term: # < url | pathname | title | ...>
   # Giscus options › https://giscus.app
   giscus:
-    repo: itsjason-net/itsjason-net.github.io
+    repo: jasontenpenny/jasontenpenny.github.io
     repo_id: R_kgDOLUB3YQ
     category: General
     category_id: DIC_kwDOLUB3Yc4CDRHJ
