@@ -13,6 +13,6 @@ img {
     border-radius: .625rem;
 }
 
-a:has(.fa-hidden) {
+div.sidebar-bottom > a:has(.fa-hidden) {
     display: none !important;
 }
