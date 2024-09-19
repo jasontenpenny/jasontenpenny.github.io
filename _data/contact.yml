@@ -30,6 +30,10 @@
   icon: 'fab fa-hidden'
   url: 'https://bsky.brid.gy/ap/jasontenpenny.com'
 
+- type: mastodon
+  icon: 'fab fa-hidden'
+  url: 'https://mastodon.social/@itsjason'
+
 # Uncomment and complete the url below to enable more contact options
 #
 # - type: linkedin
