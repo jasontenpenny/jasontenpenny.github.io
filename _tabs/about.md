@@ -26,4 +26,4 @@ Along the way, I got a Bachelor of Science degree in Information Technology.
 
 I'm not always great at coming up with topics to write about. So if there is a question you have regarding how to do something with your personal technology, send it my way. If it's something I know or can figure out, I could try to turn that into a new blog post.
 
-And if something was helpful, feel free to [buy me a beer](https://www.buymeacoffee.com/itsjason.net). It would make my day!
+And if something was helpful, feel free to [buy me a beer](https://www.buymeacoffee.com/jasontenpenny). It would make my day!
