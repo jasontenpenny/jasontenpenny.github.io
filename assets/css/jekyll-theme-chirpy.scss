@@ -12,3 +12,7 @@
 img {
     border-radius: .625rem;
 }
+
+a:has(.fa-hidden) {
+    display: none !important;
+}

@@ -23,7 +23,7 @@
   noblank: true
 
 - type: mastodon
-  icon: 'fab fa-mastodon'
+  icon: 'fab fa-hidden'
   url: 'https://bsky.brid.gy/ap/did:plc:so3xt2f546bwafa3qhjzr3ph'
 # Uncomment and complete the url below to enable more contact options
 #
