@@ -9,7 +9,7 @@
 
 - type: mastodon
   icon: 'fab fa-mastodon'   # icons powered by <https://fontawesome.com/>
-  url:  'https://mastodon.social/@itsjason'                  # Fill with your Mastodon account page, rel="me" will be applied for verification
+  url:  'https://fed.brid.gy/bsky/jasontenpenny.com/followers'                  # Fill with your Mastodon account page, rel="me" will be applied for verification
 
 - type: github
   icon: 'fab fa-github'
@@ -29,7 +29,7 @@
 - type: mastodon
   icon: 'fab fa-hidden'
   url: 'https://bsky.brid.gy/ap/jasontenpenny.com'
-  
+
 # Uncomment and complete the url below to enable more contact options
 #
 # - type: linkedin
