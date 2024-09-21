@@ -1,6 +1,6 @@
 ---
 title:  "What I Use - September 2024 Edition"
-date: 2024-09-21 13:18:00 -0600
+date: 2024-09-21 13:45:00 -0600
 tags: [mac, email, cloud storage, browsers, password management, Apple devices, web search]
 category: [What I Use]
 ---
