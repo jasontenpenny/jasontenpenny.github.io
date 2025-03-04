@@ -5,7 +5,7 @@ tags: [blog, 11ty, static website, github, web development]
 category: [General]
 ---
 
-> This is part of a series on moving this blog from GitHub Pages (which uses Jekyll) to 11ty. You can read the overview of this project [here](/_posts/2025-03-03-move-blog-to-11ty-prologue.md).
+> This is part of a series on moving this blog from GitHub Pages (which uses Jekyll) to 11ty. You can read the overview of this project [here](/_posts/2025-03-03-move-blog-to-11ty-prologue/).
 
 ## Act 1, Scene 1. The Foundation
 
