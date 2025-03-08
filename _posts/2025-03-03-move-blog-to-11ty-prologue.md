@@ -12,6 +12,11 @@ Well it's been quite a while since my last blog post, so hello! Happy New Year! 
 
 Today I am starting a new series on moving my blog to [11ty](https://11ty.dev). I stumbled across 11ty a couple of months ago and was intrigued. And there were a couple of things I wasn't quite happy with regarding the site configuration in GitHub Pages, so I wanted to rewrite it anyway.
 
+Posts in the series so far:
+
+- [Part 1 - Initial Deployment](https://jasontenpenny.com/posts/move-blog-to-11ty-pt1)
+- [Part 2 - Structure and basic config](https://jasontenpenny.com/posts/move-blog-to-11ty-pt2)
+
 ## Why do this at all?
 
 Here are a few of the reasons I wanted to embark on this journey.

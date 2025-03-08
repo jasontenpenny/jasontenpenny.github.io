@@ -1,5 +1,5 @@
 ---
-title:  "Moving My Blog to 11ty - Part 1"
+title:  "Moving My Blog to 11ty - Part 1 (Initial deployment)"
 date: 2025-03-03 20:35:00 -0600
 tags: [blog, 11ty, static website, github, web development]
 category: [General]
