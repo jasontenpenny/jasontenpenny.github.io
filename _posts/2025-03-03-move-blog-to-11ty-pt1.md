@@ -2,7 +2,7 @@
 title:  "Moving My Blog to 11ty - Part 1 (Initial deployment)"
 date: 2025-03-03 20:35:00 -0600
 tags: [blog, 11ty, static website, github, web development]
-category: [General]
+category: [Web Development]
 ---
 
 > This is part of a series on moving this blog from GitHub Pages (which uses Jekyll) to 11ty. You can read the overview of this project [here](https://jasontenpenny.com/posts/move-blog-to-11ty-prologue/).

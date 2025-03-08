@@ -2,7 +2,7 @@
 title:  "Moving My Blog to 11ty - Prologue"
 date: 2025-03-03 18:19:00 -0600
 tags: [blog, 11ty, static website, github, web development]
-category: [General]
+category: [Web Development]
 image:
     path: /assets/images/11ty_homepage.png
     alt: screenshot of the 11ty homepage
