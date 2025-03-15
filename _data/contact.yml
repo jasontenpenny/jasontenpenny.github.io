@@ -34,6 +34,10 @@
   icon: 'fab fa-hidden'
   url: 'https://mastodon.social/@itsjason'
 
+- type: mastodon
+  icon: 'fab fa-hidden'
+  url: 'https://mastodon.social/@jasontenpenny'
+
 # Uncomment and complete the url below to enable more contact options
 #
 # - type: linkedin
