@@ -16,6 +16,7 @@ Posts in the series so far:
 
 - [Part 1 - Initial Deployment](https://jasontenpenny.com/posts/move-blog-to-11ty-pt1)
 - [Part 2 - Structure and basic config](https://jasontenpenny.com/posts/move-blog-to-11ty-pt2)
+- [Part 3 - Building Layouts](https://jasontenpenny.com/posts/move-blog-to-11ty-pt3)
 
 ## Why do this at all?
 
