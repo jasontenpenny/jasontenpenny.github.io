@@ -55,11 +55,15 @@ The actual footer is just a section of HTML that has a distinctive tag, but sinc
 
 Now we can put this all together in our first actual layout. I will call this one `default.html` and it will live in the *_layouts* folder.
 
+{% raw %}
+
 ```html
 {% include 'head.html' %}
     {{ content }}
 {% include 'footer.html' %}
 ```
+
+{% endraw %}
 
 So this calls our head.html and footer.html files we created, and then uses a liquid shortcode to include the content of the markdown files that use this template.
 
