@@ -1,6 +1,6 @@
 ---
 title:  "Moving My Blog to 11ty - Part 3 (Building Layouts)"
-date: 2025-03-22 17:46:00 -0600
+date: 2025-03-22 12:46:00 -0600
 tags: [blog, 11ty, static website, github, web development]
 category: [Web Development]
 ---
