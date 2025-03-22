@@ -86,6 +86,8 @@ Eleventy allows to nest or [chain layouts](https://www.11ty.dev/docs/layout-chai
 
 Notice that we used the *content* liquid code to include the actual page content. Well this can also pull in entire layouts that are configured to use the default layout as their base. So let's create a layout for posts. We'll call it `post.html`.
 
+{% raw %}
+
 ```html
 ---
 layout: default.html
@@ -95,9 +97,13 @@ layout: default.html
 {{ content }}
 ```
 
+{% endraw %}
+
 Ok so let's talk about what we're doing here. We've included some YAML frontmatter first, in which we're specifying the layout. This is effectively the layout for the layout. Then we're using some liquid tags to put in the post title and its publish date. Then we're putting in the *content* liquid tag again to include the actual text of the post.
 
 There's one other piece that's required in order to use this layout, and that's to set this layout in the frontmatter of our post. So let's create `examplepost.md`.
+
+{% raw %}
 
 ```md
 ---
@@ -107,6 +113,8 @@ title: Example Blog Post
 
 This is the text of my blog post.
 ```
+
+{% endraw %}
 
 Ok so what happens at publish time? Well first the markdown file is analyzed and it passes its content up to the defined layout, in this case `post.html`. It then combines the data in the post with the formatting in the layout. But it also sees that `post.html` has a layout defined, so it passes the combined data and formatting up to the `default.html` layout. All this gets included as part of the *content* tag. Then the rest of the formatting and CSS information is applied to the data, and this results in the finished page that gets published.
 
